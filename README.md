@@ -2,7 +2,7 @@
 
 simple project to learn how to code a simple automatic billiards table.
 Using C++ and arduino IDE.
-
+Detailed instructions on the development and simulation of the program can be found in report.pdf which is written in greek.
 ## Executing Program
 
 Arduino IDE to run. You can also simulate it through here:
@@ -13,7 +13,6 @@ Start the simulation, it will start counting down to simulate the coin acceptor.
 
 Every push of the button sends an impulse, 1 pulse equals 2 euros, 2 pulses 1 euro etc
 After 5 euros have been placed, a game will start with a random sequence of balls placed to show the correct usage of the program. After a black ball is detected, the game ends adding the game price to the total and incrementing the games played.
-
 ## Dependencies
 
 My implementation uses the TM1637 Display to output the amount of coins are inserted inside the
@@ -49,6 +48,9 @@ Code has functionality to simulate the outputs of the modules using the serial m
 - [@Akis S.](https://github.com/Likecinema)
 
 ## Versions History
+
+* 1.0
+  * Added report in greek - Final
 
 * 0.2
   * ESP8266 implementation for wifi connection to mySQL database
